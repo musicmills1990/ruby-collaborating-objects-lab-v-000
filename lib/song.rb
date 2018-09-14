@@ -19,8 +19,7 @@ def self.new_by_filename(file_name)
 end
 
 def artist=(artist)
-@artist = artist 
-#  artist.add_song(self) unless artist.songs.include?(self)
+@artist = artist
 end
 
 end
